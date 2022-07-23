@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background-color: #23252C;
+    color: whitesmoke;
+    font-family: Inter, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 300px;
+}
+
+.container {
+    max-width: 320px;
+    margin: 15px auto;
+    text-align: center;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.main--section {
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    background-color: #1A1B21;
+}
+
+.profile--image {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 1em;
+}
+
+.contact--buttons {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0;
+    padding: 1em;
+    padding-top: 0;
+    width: 100%;
+}
+
+.btn {
+    padding: .5em 1em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button {
+    background-color: white;
+    padding: .5em 1.5em;
+    border-radius: 2px;
+    display: flex;
+    margin: 1em;
+    text-decoration: none;
+    width: 100%;
+}
+
+.button i {
+    margin-right: .25em;
+}
+
+.linkedin {
+    background-color: #5093E2;
+    color: whitesmoke;
+}
+
+.linkedin:hover,
+.linked:active {
+  background-color: #9093E2;
+}
+
+.email {
+    color: #374151;
+}
+
+.email:hover,
+.email:active {
+    color: #5093E2;
+}
+
+.social-btn {
+    padding: 1em;
+    margin: 1em;
+    color: whitesmoke;
+}
+
+.social-btn:active,
+.social-btn:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161619;
+    height: 70px;
+    margin: 0 0 2em;
+    border-radius: 0 0 15px 15px;
+}
+
+.main--h1 {
+    margin-bottom: .25em;
+    margin-top: .325em;
+}
+
+.main--h2 {
+    color: burlywood;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0 0 1em 0;
+}
+
+.main--h3 {
+    color: white;
+    padding: .125em;
+    font-size: .785em;
+    margin: 1em;
+    margin-bottom: 0;
+}
+
+.main--h3 a:active,
+.main--h3 a:hover {
+    color: #5093E2;
+    cursor: pointer;
+}
+
+.main--h3 > a {
+    color: white;
+    text-decoration: none;
+}
+
+.about--section,
+.interests--section {
+    text-align: left;
+}
+
+.about--section > p,
+.about--section > h4,
+.interests--section > p,
+.interest--section > h4 {
+  padding: 0 1em;
+}
+
+.interest--title,
+.about--title {
+  text-align: left;
+}
+
+h4 {
+    margin-bottom: .875em;
+    margin-top: 0;
+    font-size: 1.25em;
+}
+
+p {
+    margin-bottom: 1em;
+    line-height: 20px;
+    text-align: left;
+}
