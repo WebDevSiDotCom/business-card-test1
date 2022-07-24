@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WebDevSiDotCom/business-card-test1/static/css/main.b4658450.css",
+    "main.js": "/WebDevSiDotCom/business-card-test1/static/js/main.81803535.js",
+    "static/js/787.bc412fff.chunk.js": "/WebDevSiDotCom/business-card-test1/static/js/787.bc412fff.chunk.js",
+    "static/media/headshot.jpg": "/WebDevSiDotCom/business-card-test1/static/media/headshot.e870214fa1c60a5e8e6f.jpg",
+    "index.html": "/WebDevSiDotCom/business-card-test1/index.html",
+    "main.b4658450.css.map": "/WebDevSiDotCom/business-card-test1/static/css/main.b4658450.css.map",
+    "main.81803535.js.map": "/WebDevSiDotCom/business-card-test1/static/js/main.81803535.js.map",
+    "787.bc412fff.chunk.js.map": "/WebDevSiDotCom/business-card-test1/static/js/787.bc412fff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4658450.css",
+    "static/js/main.81803535.js"
+  ]
+}
